@@ -1,0 +1,189 @@
+body {
+  background-color: rgb(241, 241, 241);
+  font-family: "Inter", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+  font-size: 34px;
+  font-weight: bold;
+  padding: 30px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 1px 10px 0px lightgray;
+}
+.navbar-inner2 {
+  color: #27a5f4;
+}
+.newTask {
+  padding: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  vertical-align: middle;
+}
+a:link {
+  text-decoration: none;
+}
+.plus img {
+  height: 20px;
+  width: 20px;
+  background-color: #27a5f4;
+  border-radius: 50%;
+  padding: 5px;
+}
+.tilesBox {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.tile {
+  height: 400px;
+  width: 400px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+.tile:hover {
+  transition: ease-in-out;
+  transition-duration: 0.5s;
+  box-shadow: 0px 0px 20px 5px lightgray;
+}
+
+.tileText {
+  font-size: 18px;
+  padding: 30px;
+  /* line-height: 40px; */
+}
+.tileHead {
+  padding-bottom: 26px;
+  border-bottom: 1px solid lightgrey;
+  font-weight: bold;
+  color: #27a5f4;
+  font-size: 24px;
+}
+.disabledName {
+  text-decoration: line-through;
+  color: lightgray;
+}
+input[type="checkbox"] {
+  height: 24px;
+  width: 24px;
+  color: gray;
+  margin-top: 15px;
+}
+label {
+  color: #636363;
+}
+.tileLast {
+  background: none;
+}
+.tileLast:hover {
+  box-shadow: none;
+}
+
+.parent {
+  filter: blur(8px);
+}
+
+.addNewTask {
+  height: 200px;
+  width: 400px;
+  background-color: #ffffff;
+  border: 2px solid #e8e8e8;
+  border-radius: 10px;
+  position: relative;
+  bottom: 900px;
+  left: 36%;
+}
+.newTaskHead {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 2px solid #e8e8e8;
+}
+.newTaskContent {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  align-items: end;
+  padding: 20px;
+  gap: 25px;
+}
+input {
+  background-color: #f0efef;
+  border: none;
+  height: 35px;
+  width: 350px;
+  border-radius: 4px;
+}
+.newTaskButton {
+  background-color: #27a5f4;
+  width: 100px;
+  padding: 10px 20px 10px 20px;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.contentTile {
+  width: 500px;
+  padding: 40px;
+  position: relative;
+  left: 30%;
+}
+
+.contentNav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.back {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+}
+
+.back img {
+  background-color: black;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  padding: 1px;
+}
+
+.newTask2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+}
+.tileHeadIndex3 {
+  padding-bottom: 26px;
+  border-bottom: 1px solid lightgrey;
+  font-weight: bold;
+  color: #27a5f4;
+  font-size: 24px;
+  text-align: center;
+}
+.tileIndex3 {
+  margin-top: 40px;
+  height: 400px;
+  width: 500px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px 5px lightgray;
+}
+
+.addNewItem {
+  height: 200px;
+  width: 400px;
+  background-color: #ffffff;
+  border: 2px solid #e8e8e8;
+  border-radius: 10px;
+  position: relative;
+  bottom: 400px;
+  left: 36%;
+}
